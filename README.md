@@ -19,6 +19,7 @@ The config file contains a few variables.
 max_file_size - The maximum allowed image file size allowed for checking. Images larger than this size will not be downloaded and a HTTP 400 will be thrown.
 
 max_color_distance - The maximum Euclidean distance allowed from the nearest color before null is returned.
+
 colors - a dict of (r, g, b) keys and color name values.
 
 # Running locally
