@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  prodigi-test:
+    container_name: prodigi-test
+    build: .
+    ports:
+      - 5000:5000
